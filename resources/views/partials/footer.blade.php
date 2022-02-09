@@ -188,7 +188,7 @@
                     </div>
 
                     <div class="copyright">
-                        All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <span class="highlighted"><a href="">noted here</a></span>.All rights reserved.<br>
+                        All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <span class="highlighted"><a href="">noted here</a></span>. All rights reserved.<br>
                         <span class="highlighted"><a href="">Cookies Settings</a></span>
                     </div>
                 </div>
