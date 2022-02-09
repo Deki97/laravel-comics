@@ -9,6 +9,19 @@
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header .pre-header {
   background-color: #0282f9;
 }
@@ -22,5 +35,40 @@ header .pre-header .container .pre-header-wrapper {
 
 header .pre-header .container .pre-header-wrapper div {
   margin-left: 60px;
+}
+
+header .menus .container .menus-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+header .menus .container .menus-wrapper .dc-logo {
+  width: 80px;
+}
+
+header .menus .container .menus-wrapper .menu nav ul {
+  text-transform: uppercase;
+  color: #1c1c1c;
+  display: flex;
+}
+
+header .menus .container .menus-wrapper .menu nav ul li {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+header .menus .container .menus-wrapper .search {
+  color: #1c1c1c;
+}
+
+header .jumbotron img {
+  height: 350px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 

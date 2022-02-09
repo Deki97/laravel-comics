@@ -15,13 +15,65 @@
 
     <div class="menus">
         <div class="container">
-            Header menu
+            <div class="menus-wrapper">
+                <div class="dc-logo">
+                    <img src="{{ asset('images/dc-logo.png ')}}" alt="DC Logo">
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">Characters</a>
+                            </li>
+
+                            <li>
+                                <a href="">Comics</a>
+                            </li>
+
+                            <li>
+                                <a href="">Movies</a>
+                            </li>
+
+                            <li>
+                                <a href="">Tv</a>
+                            </li>
+
+                            <li>
+                                <a href="">Games</a>
+                            </li>
+
+                            <li>
+                                <a href="">Collectibles</a>
+                            </li>
+
+                            <li>
+                                <a href="">Videos</a>
+                            </li>
+
+                            <li>
+                                <a href="">Fans</a>
+                            </li>
+
+                            <li>
+                                <a href="">News</a>
+                            </li>
+
+                            <li>
+                                <a href="">Shop</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="search">
+                    Search
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="jumbotron">
-        <div class="container">
-            Jumbotron
-        </div>
+        <img src="{{ asset('images/jumbotron.jpg')}}" alt="Jumbotron Image">
     </div>
 </header>

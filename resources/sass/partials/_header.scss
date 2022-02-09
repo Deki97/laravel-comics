@@ -14,4 +14,47 @@ header {
             }
         }
     }
+
+    .menus {
+        .container {
+            .menus-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px 0;
+
+                .dc-logo {
+                    width: 80px;
+                }
+
+                .menu {
+                    nav {
+                        ul {
+                            text-transform: uppercase;
+                            color: $page_primary_color;
+                            display: flex;
+
+                            li {
+                                font-weight: bold;
+                                margin: 0 10px;
+                            }
+                        }
+                    }
+                }
+
+                .search {
+                    color: $page_primary_color;
+                }
+            }
+        }
+    }
+
+    .jumbotron {
+        img {
+            height: 350px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
 }
