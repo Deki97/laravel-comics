@@ -163,8 +163,8 @@ footer .footer-links {
 footer .footer-links .container {
   display: flex;
 }
-footer .footer-links .container .bk-logo img {
-  overflow: hidden;
+footer .footer-links .container .bk-logo {
+  background-image: url("../images/dc-logo-bg.png");
 }
 footer .footer-links .container .footer-links-wrapper {
   padding: 40px 0;
