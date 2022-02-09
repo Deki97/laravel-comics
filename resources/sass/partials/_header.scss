@@ -1,0 +1,17 @@
+header {
+    .pre-header {
+        background-color: $page_secondary_color;
+        .container {
+            .pre-header-wrapper {
+                display: flex;
+                justify-content: flex-end;
+                color: white;
+                padding: 5px 0;
+
+                & div {
+                    margin-left: 60px;
+                }
+            }
+        }
+    }
+}

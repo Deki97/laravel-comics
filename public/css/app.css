@@ -1,4 +1,26 @@
-body {
-  background-color: aqua;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header .pre-header {
+  background-color: #0282f9;
+}
+
+header .pre-header .container .pre-header-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 5px 0;
+}
+
+header .pre-header .container .pre-header-wrapper div {
+  margin-left: 60px;
 }
 
