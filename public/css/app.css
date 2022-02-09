@@ -160,6 +160,12 @@ footer .footer-links {
   background-position: center;
   background-size: cover;
 }
+footer .footer-links .container {
+  display: flex;
+}
+footer .footer-links .container .bk-logo img {
+  overflow: hidden;
+}
 footer .footer-links .container .footer-links-wrapper {
   padding: 40px 0;
 }

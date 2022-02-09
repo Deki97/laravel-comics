@@ -192,6 +192,10 @@
                         <span class="highlighted"><a href="">Cookies Settings</a></span>
                     </div>
                 </div>
+
+                <div class="bk-logo">
+                    {{-- <img src="{{ asset('images/dc-logo-bg.png')}}" alt=""> --}}
+                </div>
             </div>
         </div>
 
