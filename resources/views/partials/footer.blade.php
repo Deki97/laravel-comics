@@ -188,7 +188,8 @@
                     </div>
 
                     <div class="copyright">
-                       
+                        All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <span class="highlighted"><a href="">noted here</a></span>.All rights reserved.<br>
+                        <span class="highlighted"><a href="">Cookies Settings</a></span>
                     </div>
                 </div>
             </div>
@@ -196,8 +197,50 @@
 
         <div class="sign-up-socials">
             <div class="container">
-                <div class="sing-up-socials-wrapper">
+                <div class="sign-up-socials-wrapper">
+                    <div class="sign-up">
+                        <a href="">Sign-up now!</a>
+                    </div>
 
+                    <div class="socials">
+                        <div class="follow-us">
+                            Follow Us
+                        </div>
+
+                        <div class="social-icons">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-pinterest"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

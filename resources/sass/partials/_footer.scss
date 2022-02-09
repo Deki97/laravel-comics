@@ -30,14 +30,97 @@ footer {
 
     .footer-links {
         background-image: url('../images/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
         .container {
             .footer-links-wrapper {
+                padding: 40px 0;
                 .links-wrapper {
+                    display: flex;
+
+                    .dc-comics-shop-links {
+                        .shop-links {
+                            margin-top: 30px;
+                            margin-right: 20px;
+                        }
+                    }
+
                     h3 {
                         text-transform: uppercase;
                         font-size: 16px;
                         color: white;
+                    }
+
+                    ul {
+                        margin-top: 20px;
+
+                        li {
+                            color: grey;
+                            font-size: 12px;
+                            margin: 5px 0;
+                        }
+                    }
+
+                    & > div {
+                        margin-right: 20px;
+                    }
+                }
+
+                .copyright {
+                    font-size: 12px;
+                    color: grey;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+
+    .sign-up-socials {
+        background-color: #303030;
+        padding: 40px 0;
+
+        .container {
+            .sign-up-socials-wrapper {
+                display: flex;
+                justify-content: space-between;
+
+                .sign-up {
+                    a {
+                        color: white;
+                        text-transform: uppercase;
+                        border: 2px solid $page_secondary_color;
+                        padding: 8px 12px;
+                    }
+                }
+
+                .socials {
+                    display: flex;
+                    align-items: center;
+
+                    .follow-us {
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        color: $page_secondary_color;
+                        font-weight: bold;
+                        margin-right: 20px;
+                    }
+
+                    .social-icons {
+                        ul {
+                            display: flex;
+
+                            li {
+                                width: 30px;
+                                height: 30px;
+                                background-color: grey;
+                                margin: 0 10px;
+                                text-align: center;
+                                line-height: 30px;
+                                border-radius: 50%;
+                            }
+                        }
                     }
                 }
             }
