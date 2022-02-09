@@ -63,6 +63,10 @@ header .menus .container .menus-wrapper .search {
   color: #1c1c1c;
 }
 
+header .menus .container .menus-wrapper .search input {
+  text-align: right;
+}
+
 header .jumbotron img {
   height: 350px;
   width: 100%;
