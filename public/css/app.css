@@ -25,53 +25,43 @@ a {
 header .pre-header {
   background-color: #0282f9;
 }
-
 header .pre-header .container .pre-header-wrapper {
   display: flex;
   justify-content: flex-end;
   color: white;
   padding: 5px 0;
 }
-
 header .pre-header .container .pre-header-wrapper div {
   margin-left: 60px;
 }
-
 header .menus .container .menus-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 0;
 }
-
 header .menus .container .menus-wrapper .dc-logo {
   width: 80px;
 }
-
 header .menus .container .menus-wrapper .menu nav ul {
   text-transform: uppercase;
   color: #1c1c1c;
   display: flex;
 }
-
 header .menus .container .menus-wrapper .menu nav ul li {
   font-weight: bold;
   margin: 0 10px;
 }
-
 header .menus .container .menus-wrapper .menu nav ul .current {
   color: #0282f9;
   border-bottom: 2px solid #0282f9;
 }
-
 header .menus .container .menus-wrapper .search {
   color: #1c1c1c;
 }
-
 header .menus .container .menus-wrapper .search input {
   text-align: right;
 }
-
 header .jumbotron img {
   height: 350px;
   width: 100%;
@@ -81,3 +71,24 @@ header .jumbotron img {
      object-position: top;
 }
 
+main {
+  background-color: #1c1c1c;
+}
+main .comics .comics-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .comics .comics-list .single-comic {
+  width: calc(16.6666666667% - 30px);
+  margin: 15px;
+}
+main .comics .comics-list .single-comic .comic-image {
+  height: 180px;
+  overflow: hidden;
+}
+main .comics .comics-list .single-comic .comic-name {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  margin: 20px 0;
+}
