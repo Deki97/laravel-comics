@@ -3,7 +3,16 @@ main {
 
     .comics {
         .current-series {
-            
+            color: white;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: bold;
+            background-color: $page_secondary_color;
+            display: inline-block;
+            padding: 10px 20px;
+            position: relative;
+            left: 0;
+            bottom: 30px;
         }
 
         .comics-list {
@@ -15,16 +24,30 @@ main {
                 margin: 15px;
 
                 .comic-image {
-                    height: 180px;
+                    height: 150px;
                     overflow: hidden;
                 }
 
                 .comic-name {
                     text-transform: uppercase;
                     color: white;
-                    font-size: 14px;
+                    font-size: 12px;
                     margin:  20px 0;
                 }
+            }
+        }
+
+        .load-more {
+            text-align: center;
+            margin: 15px 0;
+
+            a {
+                color: white;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: bold;
+                background-color: $page_secondary_color;
+                padding: 8px 50px;
             }
         }
     }

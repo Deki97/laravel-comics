@@ -1,0 +1,46 @@
+footer {
+    .pre-footer {
+        background-color: $page_secondary_color;
+
+        .container {
+            .pre-footer-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 50px;
+
+                .single-section {
+                    display: flex;
+                    align-items: center;
+
+                    .icon {
+                        width: 35px;
+                    }
+
+                    .text {
+                        text-transform: uppercase;
+                        color: white;
+                        margin-left: 15px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-links {
+        background-image: url('../images/footer-bg.jpg');
+
+        .container {
+            .footer-links-wrapper {
+                .links-wrapper {
+                    h3 {
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

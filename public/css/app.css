@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -33,6 +37,7 @@ header .pre-header .container .pre-header-wrapper {
 }
 header .pre-header .container .pre-header-wrapper div {
   margin-left: 60px;
+  font-size: 10px;
 }
 header .menus .container .menus-wrapper {
   display: flex;
@@ -50,7 +55,8 @@ header .menus .container .menus-wrapper .menu nav ul {
 }
 header .menus .container .menus-wrapper .menu nav ul li {
   font-weight: bold;
-  margin: 0 10px;
+  margin: 0 20px;
+  font-size: 12px;
 }
 header .menus .container .menus-wrapper .menu nav ul .current {
   color: #0282f9;
@@ -58,9 +64,13 @@ header .menus .container .menus-wrapper .menu nav ul .current {
 }
 header .menus .container .menus-wrapper .search {
   color: #1c1c1c;
+  border-bottom: 1px solid #0282f9;
 }
 header .menus .container .menus-wrapper .search input {
   text-align: right;
+  border: none;
+  font-weight: bold;
+  width: 100px;
 }
 header .jumbotron img {
   height: 350px;
@@ -74,6 +84,18 @@ header .jumbotron img {
 main {
   background-color: #1c1c1c;
 }
+main .comics .current-series {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #0282f9;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  left: 0;
+  bottom: 30px;
+}
 main .comics .comics-list {
   display: flex;
   flex-wrap: wrap;
@@ -83,12 +105,55 @@ main .comics .comics-list .single-comic {
   margin: 15px;
 }
 main .comics .comics-list .single-comic .comic-image {
-  height: 180px;
+  height: 150px;
   overflow: hidden;
 }
 main .comics .comics-list .single-comic .comic-name {
   text-transform: uppercase;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   margin: 20px 0;
+}
+main .comics .load-more {
+  text-align: center;
+  margin: 15px 0;
+}
+main .comics .load-more a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #0282f9;
+  padding: 8px 50px;
+}
+
+footer .pre-footer {
+  background-color: #0282f9;
+}
+footer .pre-footer .container .pre-footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+footer .pre-footer .container .pre-footer-wrapper .single-section {
+  display: flex;
+  align-items: center;
+}
+footer .pre-footer .container .pre-footer-wrapper .single-section .icon {
+  width: 35px;
+}
+footer .pre-footer .container .pre-footer-wrapper .single-section .text {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 15px;
+  font-size: 12px;
+}
+footer .footer-links {
+  background-image: url("../images/footer-bg.jpg");
+}
+footer .footer-links .container .footer-links-wrapper .links-wrapper h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
 }
