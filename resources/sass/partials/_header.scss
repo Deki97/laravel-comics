@@ -38,6 +38,11 @@ header {
                                 font-weight: bold;
                                 margin: 0 10px;
                             }
+
+                            .current {
+                                color: $page_secondary_color;
+                                border-bottom: 2px solid $page_secondary_color;
+                            }
                         }
                     }
                 }

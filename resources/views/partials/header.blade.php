@@ -27,7 +27,7 @@
                                 <a href="">Characters</a>
                             </li>
 
-                            <li>
+                            <li class="current">
                                 <a href="">Comics</a>
                             </li>
 
