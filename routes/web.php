@@ -14,5 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    // In questo modo vado a prendermi il return del file comics.php, che si trova dentro config
+    $comics_array = config('comics');
+    // dd($comics_array);
+
+    $comics_cards = [];
+
+    foreach($comics_array as $comic) {
+        // dd($comic);
+        $comics_cards[] = $comic;
+    }
+    // dd($comics_cards);
+
+    $data = [
+        'comics_cards' => $comics_cards
+    ];
+
+    
+    return view('home', $data);
 });
