@@ -1,18 +1,18 @@
 main {
     
-    .comics-background {
+    &.comics-background {
         background-color: #1c1c1c;
     }
 
-    .comic-intro-background {
+    &.comic-intro-background {
         background-color: $page_secondary_color;
     }
 
-    .comic-main-description {
+    &.comic-main-description {
         background-color: white;
     }
 
-    .comic-footer-info {
+    &.comic-footer-info {
         background-color: #f6f6f6;
     }
 
