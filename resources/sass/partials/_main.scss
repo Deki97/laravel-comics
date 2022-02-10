@@ -69,8 +69,45 @@ main {
     }
 
     .single-comic-detail {
+        .blue-line {
+            background-color: $page_secondary_color;
+            height: 100px;
+        }
+
         .container {
+            .comic-intro {
+                position: absolute;
+                left: 230px;
+                bottom: 180px;
+                border: 2px solid white;
+
+                .comic-book-target {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color: white;
+                    background-color: #00a9d9;
+                    text-transform: uppercase;
+                    padding: 2px 5px;
+                }
+
+                .view-gallery-target {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    color: white;
+                    background-color: #00a9d9;
+                    text-transform: uppercase;
+                    padding: 2px 5px;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
             .comic-main-description {
+                display: flex;
+                justify-content: space-between;
+                padding: 50px 0;
+
                 .left-comic {
                     .comic-title {
                         text-transform: uppercase;
@@ -81,9 +118,9 @@ main {
                         display: flex;
                         background-color: #55ba59;
                         color: white;
-                        width: 600px;
+                        width: 700px;
                         justify-content: space-between;
-                        padding: 10px 20px;
+                        padding: 15px 20px;
                         margin: 20px 0;
 
                         .availability {
@@ -92,13 +129,67 @@ main {
                     }
 
                     .comic-description {
-                        width: 600px;
+                        width: 700px;
+                        font-size: 14px;
+                        line-height: 25px;
+                        color: grey;
+                    }
+                }
+
+                .right-comic {
+                    .ads-text {
+                        text-transform: uppercase;
+                        text-align: right;
+                        font-size: 14px;
+                        color: grey;
+                        font-weight: bold;
+                        margin-bottom: 5px;
                     }
                 }
             }
 
             .comic-footer-info {
                 display: flex;
+                background-color: #f6f6f6;
+
+                .talent {
+                    width: calc( (100% / 2) - 40px);
+                    margin: 0 20px;
+                    .title {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #064161;
+                    }
+                    .art-by,
+                    .written-by {
+                        display: flex;
+                        justify-content: space-between;
+                        
+                        .label {
+                            color: #064161;
+                        }
+                    }
+                }
+
+                .specs {
+                    width: calc( (100% / 2) - 40px);
+                    margin: 0 20px;
+                    .title {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #064161;
+                    }
+                    .series,
+                    .price,
+                    .sale {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .label {
+                            color: #064161;
+                        }
+                    }
+                }
             }
         }
     }

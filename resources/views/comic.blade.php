@@ -10,9 +10,18 @@
 @section('main_content')
     {{-- Sono il dettaglio del prodotto : {{ $comic_info['title'] }} --}}
     <section class="single-comic-detail">
+        <div class="blue-line"></div>
         <div class="container">
             <div class="comic-intro">
                 <img src="{{ $comic_info['thumb'] }}" alt="{{ $comic_info['title'] }}">
+
+                <div class="comic-book-target">
+                    Comic Book
+                </div>
+
+                <div class="view-gallery-target">
+                    View Gallery
+                </div>
             </div>
 
             <div class="comic-main-description">
