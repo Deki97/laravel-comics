@@ -33,7 +33,8 @@ Route::get('/', function () {
 
     
     return view('home', $data);
-});
+
+})->name('homepage');
 
 
 // Creo la route che mi servirà per poter visualizzare al dettaglio ogni singola comic card
@@ -55,4 +56,4 @@ Route::get('/comic/{id}', function($id) {
     ];
     
     return view('comic', $data);
-});
+})->name('comic');

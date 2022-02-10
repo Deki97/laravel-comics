@@ -140,6 +140,25 @@ main .comics .load-more a {
   background-color: #0282f9;
   padding: 8px 50px;
 }
+main .single-comic-detail .container .comic-main-description .left-comic .comic-title {
+  text-transform: uppercase;
+  color: #003f5e;
+}
+main .single-comic-detail .container .comic-main-description .left-comic .comic-buy {
+  display: flex;
+  background-color: #55ba59;
+  color: white;
+  width: 600px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+main .single-comic-detail .container .comic-main-description .left-comic .comic-buy .availability {
+  text-transform: uppercase;
+}
+main .single-comic-detail .container .comic-main-description .left-comic .comic-description {
+  width: 600px;
+}
 
 footer .pre-footer {
   background-color: #0282f9;

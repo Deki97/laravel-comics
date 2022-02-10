@@ -67,4 +67,39 @@ main {
             }
         }
     }
+
+    .single-comic-detail {
+        .container {
+            .comic-main-description {
+                .left-comic {
+                    .comic-title {
+                        text-transform: uppercase;
+                        color: #003f5e;
+                    }
+
+                    .comic-buy {
+                        display: flex;
+                        background-color: #55ba59;
+                        color: white;
+                        width: 600px;
+                        justify-content: space-between;
+                        padding: 10px 20px;
+                        margin: 20px 0;
+
+                        .availability {
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    .comic-description {
+                        width: 600px;
+                    }
+                }
+            }
+
+            .comic-footer-info {
+                display: flex;
+            }
+        }
+    }
 }

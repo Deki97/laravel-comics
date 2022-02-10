@@ -12,7 +12,7 @@
                 </div>
 
                 <div class="comic-name">
-                    {{ $comic['title'] }}
+                    <a href="{{ route('comic', ['id' => $comic['id']]) }}">{{ $comic['title'] }}</a>
                 </div>
             </div>
         @endforeach
