@@ -4,6 +4,10 @@
     DC Comics Home
 @endsection
 
+@section('main_classes')
+comics-background
+@endsection
+
 @section('main_content')
     <div class="container">
         

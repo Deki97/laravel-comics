@@ -85,8 +85,17 @@ header .jumbotron img {
      object-position: top;
 }
 
-main {
+main .comics-background {
   background-color: #1c1c1c;
+}
+main .comic-intro-background {
+  background-color: #0282f9;
+}
+main .comic-main-description {
+  background-color: white;
+}
+main .comic-footer-info {
+  background-color: #f6f6f6;
 }
 main .comics .current-series {
   color: white;

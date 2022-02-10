@@ -34,3 +34,25 @@ Route::get('/', function () {
     
     return view('home', $data);
 });
+
+
+// Creo la route che mi servirà per poter visualizzare al dettaglio ogni singola comic card
+Route::get('/comic/{id}', function($id) {
+
+    $comic = [];
+
+    $comics_array = config('comics');
+    $current_comic = false;
+
+    foreach($comics_array as $single_comic) {
+        if($single_comic['id'] == $id) {
+            $current_comic = $single_comic;
+        }
+    }
+
+    $data = [
+        'comic_info' => $current_comic
+    ];
+    
+    return view('comic', $data);
+});
